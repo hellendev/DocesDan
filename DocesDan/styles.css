@@ -1,0 +1,184 @@
+styles.css {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: #4b5320; /* Verde militar */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #d4af37; /* Dourado */
+  font-size: 2rem;
+}
+
+header .logo {
+  width: 120px;
+}
+
+header nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #d4af37;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Seções */
+section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #4b5320;
+  margin-bottom: 20px;
+}
+
+/* Home */
+#home {
+  background-color: #fff;
+}
+
+#home p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: #d4af37;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #a7892d;
+}
+
+/* Cardápio */
+#cardapio .categoria {
+  margin: 20px 0;
+}
+
+#cardapio .categoria h3 {
+  font-size: 1.5rem;
+  color: #d4af37;
+}
+
+#cardapio .produto {
+  display: inline-block;
+  width: 200px;
+  margin: 15px;
+  text-align: center;
+}
+
+#cardapio .produto img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.btn-add {
+  background-color: #4b5320;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-add:hover {
+  background-color: #3a4320;
+}
+
+/* Pedidos */
+#pedidos form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#pedidos label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #4b5320;
+}
+
+#pedidos input,
+#pedidos select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#pedidos input[readonly] {
+  background-color: #f0f0f0;
+}
+
+#pedidos p {
+  margin-top: 20px;
+}
+
+#pagamento-info p {
+  color: #4b5320;
+}
+
+/* Contato */
+#contato a {
+  color: #d4af37;
+  font-weight: bold;
+}
+
+#contato a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #4b5320;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
